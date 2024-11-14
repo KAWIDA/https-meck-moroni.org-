@@ -1,0 +1,301 @@
+<html>
+
+<head>
+	<base href="https://meck-moroni.org/" />
+    <title>Meck-Moroni | Transfert</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/media.css" rel="stylesheet">
+    <link href="assets/images/logo.jpg" type="image/x-icon" rel="icon" />
+</head>
+
+<body data-spy="scroll">
+
+    <!-- section de la banniere et logo -->
+    <section class="container-fluid">
+        <div class="row">
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="bannier">
+                            <div class="col-sm-5">
+                                <div id="logo">
+                                    <a href="https://meck-moroni.org/"><img src="assets/images/logo_meckMoroni.svg" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                                <div id="slog" >
+                                    <!--<img src="images/kotsi.png" class="img-responsive">-->
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <form action="resultat-de-la-recherche.html" method="get"  class="form-inline">
+                                    <div class="form-group" style="width: 100%">
+                                        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                                        <div class="input-group" style="width: 100%">
+                                            <input type="search"  name="research" class="form-control" id="research" value="" placeholder="Recherche">
+											<input type="hidden" name="id" value="10">
+                                            <span class="input-group-btn">
+											  <input class="btn btn-default" type="submit" name="buttonMail" id="sear" type="submit" value="Recherche">
+											</span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    <!-- section de la banniere et logo -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="border-bottom: none">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <div id="nav-icon1">
+                    <span></span>
+                    <span></span>
+                    <span style="top: 18.5px"></span>
+               </div>
+            </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://meck-moroni.org/">Accueil <span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos de nous <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bureau/#storie">Historique</a></li>
+							<li><a href="bureau/#bureau">Le bureau </a></li>
+                            <li><a href="bureau/#micro">La Microfinance</a></li>
+                            <li><a href="bureau/#reseau">Réseau Meck</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Epargner <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="epargne.html#ankiba">Ankiba</a></li>
+                            <li><a href="epargne.html#dharura">Dharura</a></li>
+                            <li><a href="epargne.html#plan">Plan épargne</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Emprunter <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="emprunter.html#gage">Prêt sur gage</a></li>
+                            <li><a href="emprunter.html#productif">Prêt productif</a></li>
+                            <li><a href="emprunter.html#commerce">Prêt commercial</a></li>
+                            <li><a href="emprunter.html#social">Prêt social</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="transfert.html">Transfert</a></li>
+                    <li><a href="services.html">Services Plus</a></li>
+                    <li><a href="opportunites.html">Opportunités</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- section de Navbar (menu) -->
+    <!-- section de Navbar (menu) -->
+    <section class="container-fluid">
+            <div class="row">
+                    <div class="bg-emprunte">
+                        <div class="col-sm-6">
+                            <div class="img-bg">
+                                <img src="assets/images/transfert_smart.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="caption text-center">
+                                <h4>COMME MADAME SARA</h4>
+                                <p>Effectuez vos transferts d'argent depuis le monde entier</p>
+                                <p>Avec la Meck-Moroni, je peux transférer des fonds à ma fille qui étudie à l'étranger. Ce qui est pratique c'est que l'on peut choisir entre l'envoi par Moneygram, RIA ou par virement bancaire ! Ma mère, quant à elle, se rend à la Meck-Moroni tous les mois pour récupérer l'argent que mon frère lui envoie avec Global Transfert.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <div class="row">
+            <div class="bg-title text-center" style="margin-top: 5px;font-weight: bold">
+                Nos solutions de transfert
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="bg-transfert" id="">
+			<div class="intro-transfert">
+					  Depuis plusieurs années,la Meck-Moroni offre des solutions de transfert d'argent permettant de simplifier les échanges financiers avec la diaspora, avec les étudiants, ... <br><br>
+					  Notre dispositif offre une sécurité maximale en s'appuyant sur l'expérience des institutions disposant d'une grande expérience de transfert d'argent commme RIA, Global Transfert, BDE ou MoneyGram.
+			</div>
+                <div class="resize">
+						<div class="col-sm-6">
+                    <div class="thumbnail">
+                        <div class="img-bg">
+                            <img src="assets/images/infographie meck/PNG/envoyer+.png" class="img-responsive" alt="">
+                        </div>
+                        <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Envoyer de l'argent?</button>
+                    </div>
+                </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							  <h6 class="modal-title text-center">COMMENT ENVOYER DE L'ARGENT ?</h6>
+							</div>
+                            <div class="modal-body">
+                                <img src="assets/images/infographie meck/PNG/mob_envoyer.png" class="visible-xs" style="width: 100%" alt="">
+								<img src="assets/images/infographie meck/PNG/transfert _ envoyer.png" class="hidden-xs" style="width: 100%" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                <div class="col-sm-6">
+                    <div class="thumbnail">
+                        <div class="img-bg">
+                            <img src="assets/images/infographie meck/PNG/recevoir+.png" class="img-responsive" alt="">
+                        </div>
+                        <button class="btn btn-default" data-toggle="modal" data-target="#dharoura">Recevoir de l'argent?</button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="dharoura" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header" style="margin-bottom: -20px">
+							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							  <h6 class="modal-title text-center">COMMENT RECEVOIR DE L'ARGENT ?</h6>
+							</div>
+                            <div class="modal-body">
+                                <img src="assets/images/infographie meck/PNG/transfert _ recevoir.png" class="hidden-xs" style="height: 100%;width: 100%" alt="">
+								<img src="assets/images/infographie meck/PNG/mob_recevoir.png" class="visible-xs" style="margin-top: 15px;width: 100%" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+				</div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="container-fluid">
+		<div class="row">
+			<div class="bar-bottom"></div>
+		</div>
+	</section>
+	     <footer class="container-fluid">
+            <div class="footer">
+                <div class="row">
+                    <div class="links-part">
+                        <div class="col-sm-12">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail">
+                                    <h4>PARTENAIRES</h4>
+                                    <div class="slide mySlides">
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="assets/images/logo_umeck.jpg" class="img-responsive" alt="Photo de paratenaire">
+												</div>
+												<div class="item">
+													<img src="assets/images/banquecc.jpg" alt="Photo de partenaire" class="img-responsive">
+												</div>
+												<div class="item">
+													<img src="assets/images/Logo_AFD_2016.png" alt="Photo de partenaire" class="img-responsive">
+												</div>
+												<div class="item">
+													<img src="assets/images/afraca_logo.jpg" alt="Photo de partenaire" class="img-responsive">
+												</div>
+												<div class="item">
+													<img src="assets/images/uccia.jpg" alt="Photo de partenaire" class="img-responsive">
+												</div>
+												<div class="item">
+													<img src="assets/images/beit.png" alt="Photo de partenaire" class="img-responsive">
+												</div>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail text-center">
+                                    LIENS UTILES<br><br>
+									<span><a href="http://www.u-meck.org" target="_blank">Union des Meck</a></span><br/>
+									<span><a href="https://www.afd.fr" target="_blank">Agence Française de Développement</a></span><br/>
+									<span><a href="http://www.banque-comores.km" target="_blank">Banque Centrale des Comores</a></span><br/>
+									<span><a href="http://www.http://afraca.org/" target="_blank">AFRACA</a></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail text-center">
+                                    MECK-MORONI<br><br>
+                                    	<span>Tel : 773 2728<span><br>
+										<span>BP: 877 Moroni<span><br>
+                                        <span><a href="mailto:contact@meck-moroni.org">contact@meck-moroni.org</a><span><br>
+                                        <span>Rue de la Corniche, Hankounou<span><br/><br/>
+										<span style="margin-top: 15px"><a href="https://meck-moroni.org:2096/"><img src="assets/images/webmail2.svg" class="img-responsive"></a></span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>    
+                    </div>
+                    <h5 class="text-center" style="float: right; margin-left: 5px;margin-top: 11px"><a href="https://www.nextez.net" target="_blank" style="color: #fff"> nextez</a></h5>
+                    <hr>
+                </div>
+        </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/app.js"></script>
+	<script>
+			$(document).ready(function(){
+				$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+					$(this).toggleClass('open');
+				});
+			});
+			function myFunction() {
+			var input, filter, ul, li, a, i, p;
+			input = document.getElementById("myInput");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myUL");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				p = li[i].getElementsByTagName("p")[0];
+				if ((a.innerHTML.toUpperCase().indexOf(filter) > -1) || (p.innerHTML.toUpperCase().indexOf(filter) > -1)) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+</body>
+</html>
